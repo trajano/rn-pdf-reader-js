@@ -1,10 +1,10 @@
 {
-  "name": "rn-pdf-reader-js",
-  "version": "4.1.1",
-  "description": "PDF reader for Expo",
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "rn-pdf-reader-js-improved",
+  "version": "1.0.0",
+  "description": "PDF reader forked to update dependencies and add improvements",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "Xavier Carpentier <xcapetir@gmail.com> (https://xaviercarpentier.com/)",
+  "author": "Renan de Mullenheim <renandemull@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "yarn config:dev && expo start -c",
@@ -31,13 +31,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xcarpentier/rn-pdf-reader-js.git"
+    "url": "git+https://github.com/renishv8/rn-pdf-reader-js"
   },
   "peerDependencies": {
-    "expo": ">= 33.0.x < 41.0.x",
+    "expo": ">= 33.0.x <= 44.0.x",
     "expo-constants": ">= 5.0.0 < 9.x",
-    "expo-file-system": ">= 5.0.0 < 9.x",
-    "react": "16.x",
+    "expo-file-system": ">= 5.0.0 <= 13.x",
+    "react": ">= 16.x <= 17.x",
     "react-native": "*",
     "react-native-webview": ">= 7.0.5 < 12.x"
   },
