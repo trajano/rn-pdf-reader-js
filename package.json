@@ -1,5 +1,5 @@
 {
-  "name": "rn-pdf-reader-js-improved",
+  "name": "rn-pdf-reader-js",
   "version": "1.0.0",
   "description": "PDF reader forked to update dependencies and add improvements",
   "main": "lib/index.js",
@@ -34,12 +34,12 @@
     "url": "git+https://github.com/renishv8/rn-pdf-reader-js"
   },
   "peerDependencies": {
-    "expo": ">= 33.0.x <= 44.0.x",
-    "expo-constants": ">= 5.0.0 < 9.x",
-    "expo-file-system": ">= 5.0.0 <= 13.x",
-    "react": ">= 16.x <= 17.x",
+    "expo": ">= 33.0.x",
+    "expo-constants": "*",
+    "expo-file-system": "*",
+    "react": "*",
     "react-native": "*",
-    "react-native-webview": ">= 7.0.5 < 12.x"
+    "react-native-webview": "*"
   },
   "dependencies": {
     "buffer": "5.1.0",
